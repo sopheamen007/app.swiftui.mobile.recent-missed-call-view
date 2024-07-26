@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2699DE0F2C479CE700180D5F /* Youtube_CallsUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DE0E2C479CE700180D5F /* Youtube_CallsUIApp.swift */; };
+		2699DE112C479CE700180D5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DE102C479CE700180D5F /* ContentView.swift */; };
+		2699DE132C479CE800180D5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2699DE122C479CE800180D5F /* Assets.xcassets */; };
+		2699DE162C479CE800180D5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2699DE152C479CE800180D5F /* Preview Assets.xcassets */; };
+		2699DE1F2C479D2700180D5F /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DE1E2C479D2700180D5F /* Colors.swift */; };
+		2699DE232C479D9300180D5F /* UserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DE222C479D9300180D5F /* UserResponse.swift */; };
+		2699DE252C479DA100180D5F /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DE242C479DA100180D5F /* UserData.swift */; };
+		2699DE282C479DCA00180D5F /* CallResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DE272C479DCA00180D5F /* CallResponse.swift */; };
+		2699DE2A2C479DD000180D5F /* CallData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DE292C479DD000180D5F /* CallData.swift */; };
+		2699DE2D2C479E3200180D5F /* ProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DE2C2C479E3200180D5F /* ProfileImageView.swift */; };
+		2699DE302C479E4500180D5F /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 2699DE2F2C479E4500180D5F /* Kingfisher */; };
+		2699DE322C47A1F700180D5F /* CallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DE312C47A1F700180D5F /* CallView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2699DE0B2C479CE700180D5F /* Youtube_CallsUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Youtube_CallsUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2699DE0E2C479CE700180D5F /* Youtube_CallsUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Youtube_CallsUIApp.swift; sourceTree = "<group>"; };
+		2699DE102C479CE700180D5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2699DE122C479CE800180D5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2699DE152C479CE800180D5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2699DE1E2C479D2700180D5F /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		2699DE222C479D9300180D5F /* UserResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserResponse.swift; sourceTree = "<group>"; };
+		2699DE242C479DA100180D5F /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		2699DE272C479DCA00180D5F /* CallResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallResponse.swift; sourceTree = "<group>"; };
+		2699DE292C479DD000180D5F /* CallData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallData.swift; sourceTree = "<group>"; };
+		2699DE2C2C479E3200180D5F /* ProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageView.swift; sourceTree = "<group>"; };
+		2699DE312C47A1F700180D5F /* CallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2699DE082C479CE700180D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2699DE302C479E4500180D5F /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2699DE022C479CE700180D5F = {
+			isa = PBXGroup;
+			children = (
+				2699DE0D2C479CE700180D5F /* Youtube_CallsUI */,
+				2699DE0C2C479CE700180D5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2699DE0C2C479CE700180D5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2699DE0B2C479CE700180D5F /* Youtube_CallsUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2699DE0D2C479CE700180D5F /* Youtube_CallsUI */ = {
+			isa = PBXGroup;
+			children = (
+				2699DE2B2C479E1F00180D5F /* Components */,
+				2699DE202C479D7000180D5F /* Models */,
+				2699DE1D2C479D2000180D5F /* Themes */,
+				2699DE1C2C479D1A00180D5F /* Pages */,
+				2699DE0E2C479CE700180D5F /* Youtube_CallsUIApp.swift */,
+				2699DE102C479CE700180D5F /* ContentView.swift */,
+				2699DE122C479CE800180D5F /* Assets.xcassets */,
+				2699DE142C479CE800180D5F /* Preview Content */,
+			);
+			path = Youtube_CallsUI;
+			sourceTree = "<group>";
+		};
+		2699DE142C479CE800180D5F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2699DE152C479CE800180D5F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2699DE1C2C479D1A00180D5F /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				2699DE312C47A1F700180D5F /* CallView.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		2699DE1D2C479D2000180D5F /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				2699DE1E2C479D2700180D5F /* Colors.swift */,
+			);
+			path = Themes;
+			sourceTree = "<group>";
+		};
+		2699DE202C479D7000180D5F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2699DE262C479DBE00180D5F /* CallModel */,
+				2699DE212C479D7F00180D5F /* UserModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2699DE212C479D7F00180D5F /* UserModel */ = {
+			isa = PBXGroup;
+			children = (
+				2699DE222C479D9300180D5F /* UserResponse.swift */,
+				2699DE242C479DA100180D5F /* UserData.swift */,
+			);
+			path = UserModel;
+			sourceTree = "<group>";
+		};
+		2699DE262C479DBE00180D5F /* CallModel */ = {
+			isa = PBXGroup;
+			children = (
+				2699DE272C479DCA00180D5F /* CallResponse.swift */,
+				2699DE292C479DD000180D5F /* CallData.swift */,
+			);
+			path = CallModel;
+			sourceTree = "<group>";
+		};
+		2699DE2B2C479E1F00180D5F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2699DE2C2C479E3200180D5F /* ProfileImageView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2699DE0A2C479CE700180D5F /* Youtube_CallsUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2699DE192C479CE800180D5F /* Build configuration list for PBXNativeTarget "Youtube_CallsUI" */;
+			buildPhases = (
+				2699DE072C479CE700180D5F /* Sources */,
+				2699DE082C479CE700180D5F /* Frameworks */,
+				2699DE092C479CE700180D5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Youtube_CallsUI;
+			packageProductDependencies = (
+				2699DE2F2C479E4500180D5F /* Kingfisher */,
+			);
+			productName = Youtube_CallsUI;
+			productReference = 2699DE0B2C479CE700180D5F /* Youtube_CallsUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2699DE032C479CE700180D5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					2699DE0A2C479CE700180D5F = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 2699DE062C479CE700180D5F /* Build configuration list for PBXProject "Youtube_CallsUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2699DE022C479CE700180D5F;
+			packageReferences = (
+				2699DE2E2C479E4500180D5F /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 2699DE0C2C479CE700180D5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2699DE0A2C479CE700180D5F /* Youtube_CallsUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2699DE092C479CE700180D5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2699DE162C479CE800180D5F /* Preview Assets.xcassets in Resources */,
+				2699DE132C479CE800180D5F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2699DE072C479CE700180D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2699DE2D2C479E3200180D5F /* ProfileImageView.swift in Sources */,
+				2699DE112C479CE700180D5F /* ContentView.swift in Sources */,
+				2699DE1F2C479D2700180D5F /* Colors.swift in Sources */,
+				2699DE322C47A1F700180D5F /* CallView.swift in Sources */,
+				2699DE0F2C479CE700180D5F /* Youtube_CallsUIApp.swift in Sources */,
+				2699DE252C479DA100180D5F /* UserData.swift in Sources */,
+				2699DE282C479DCA00180D5F /* CallResponse.swift in Sources */,
+				2699DE2A2C479DD000180D5F /* CallData.swift in Sources */,
+				2699DE232C479D9300180D5F /* UserResponse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2699DE172C479CE800180D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2699DE182C479CE800180D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2699DE1A2C479CE800180D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Youtube_CallsUI/Preview Content\"";
+				DEVELOPMENT_TEAM = LP846EEF49;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sopheamen.app.Youtube-CallsUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2699DE1B2C479CE800180D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Youtube_CallsUI/Preview Content\"";
+				DEVELOPMENT_TEAM = LP846EEF49;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sopheamen.app.Youtube-CallsUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2699DE062C479CE700180D5F /* Build configuration list for PBXProject "Youtube_CallsUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2699DE172C479CE800180D5F /* Debug */,
+				2699DE182C479CE800180D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2699DE192C479CE800180D5F /* Build configuration list for PBXNativeTarget "Youtube_CallsUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2699DE1A2C479CE800180D5F /* Debug */,
+				2699DE1B2C479CE800180D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2699DE2E2C479E4500180D5F /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2699DE2F2C479E4500180D5F /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2699DE2E2C479E4500180D5F /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2699DE032C479CE700180D5F /* Project object */;
+}
